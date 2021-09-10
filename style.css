@@ -132,6 +132,18 @@ body {
     height: 13px;
     width: 85.5%;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: var(--PaleBlue);
+    border-radius: 50%;
+    position: relative;
+    right: 2px;
 }
 
 .content-load .dialog {
@@ -190,7 +202,7 @@ body {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 10px;
 }
