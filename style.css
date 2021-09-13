@@ -165,7 +165,7 @@ body {
 .dialog .rect {
   width: 180px;
   height: 70px;
-  background: var(--PaleBlue);
+  background: white;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -190,7 +190,7 @@ body {
   right: 0;
   height: 0;
   width: 0;
-  border-top: 20px solid var(--PaleBlue);
+  border-top: 20px solid white;
   border-left: 20px solid transparent;
 }
 
